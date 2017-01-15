@@ -1,0 +1,64 @@
+/*reset*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,legend,input,textarea,p,blockquote,th,td,span {margin:0;padding:0;}
+table {border-collapse:collapse;border-spacing:0;}
+img {border:0;}
+fieldset {padding:0;border:none;border-top:1px solid #999;}
+legend {font-weight:bold;padding:0 10px;font-size:15px;text-transform:uppercase;}
+address,caption,cite,code,dfn,em,th,var {font-style:normal;font-weight:normal;}
+ul, ol {list-style:none;}
+caption,th	 {text-align:left;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:bold;color:#000;text-align:left;}
+li,span {text-align:left;}
+q:before,q:after {content:'';}
+abbr,acronym {border:0;}
+p, td {font-size:13px;padding-bottom:15px;}
+
+
+/*Fonts*/
+body {font:13px Arial, Verdana;color:#444;text-align:left;}
+pre, code {font:115% monospace;}
+body * {line-height:1.2em;}
+
+/*General Items*/
+a:link {color:#5289EB;text-decoration:none;}
+a:visited {color:#5289EB;text-decoration:none;}
+a:hover {color:#ff3300;text-decoration:underline;}
+a:active {color:#ff3300;text-decoration:underline;}
+
+
+/*Base*/
+h1 {font-size:167%;} 	/*22px*/	
+h2 {font-size:153.9%;} 	/*20px*/
+h3 {font-size:138.5%;}  /*18px*/
+h4 {font-size:131%;}  /*17px*/	
+h2 {font-size:22px;}
+body {background:url(../images/background_main.jpg) center top no-repeat;}
+
+
+#wrapper {width:980px;margin:0 auto;}
+table tr td {vertical-align: top;text-align: left;}
+table tr td a img {border:2px solid #eee;}
+table tr td a img:hover {border:2px solid black}
+
+header {height:55px;margin:0 0 15px 5px;}
+#hero {height:400px;}
+.slides {background:url(../images/hero.png) no-repeat top center;width:980px;height:400px;}
+.utility {padding:10px 0;}
+.utility .login {padding:5px 0 0 150px;color:#ccc;}
+.utility .login a {color:#aaa;}
+.utility .checkout {text-align: right;}
+.utiltiy .checkout strong {font-size:22px;}
+
+.logo {margin-top:0;float:left;width:125px;margin-top:-15px;}
+.nav {float:right;margin-top:0;width:850px;height:57px;background:url(../images/red_bar.png);}
+.nav ul li {float:left;list-style-type: none;padding:8px 25px 8px 25px;text-align: center;display:block;border-right:1px solid #E95F46;font-size: 12px;}
+.nav ul li strong {font-size:20px;}
+.nav ul li a {color:#F19A89}
+.nav ul li a:hover {text-decoration: none;color:#000;}
+.nav ul li a strong:hover {color: #000;}
+.nav ul li a strong {color: #fff;} 
+
+
+.slides {background:url(../images/hero1.png) top center no-repeat;}
+.products ul {padding:15px;}
+.products ul li {display:inline-block;list-style-type: none;background-color: #eee;padding:10px;margin:0 15px 15px 0;width:220px;}
