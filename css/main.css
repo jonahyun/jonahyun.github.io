@@ -32,7 +32,7 @@ h2 {font-size:153.9%;} 	/*20px*/
 h3 {font-size:138.5%;}  /*18px*/
 h4 {font-size:131%;}  /*17px*/	
 h2 {font-size:22px;}
-body {background:url(../images/background_main.jpg) center top no-repeat;}
+body {background:url(../images/background_main.jpg) center top no-repeat;background-color:#D5D6D4;}
 
 
 #wrapper {width:980px;margin:0 auto;}
@@ -46,19 +46,34 @@ header {height:55px;margin:0 0 15px 5px;}
 .utility {padding:10px 0;}
 .utility .login {padding:5px 0 0 150px;color:#ccc;}
 .utility .login a {color:#aaa;}
-.utility .checkout {text-align: right;}
-.utiltiy .checkout strong {font-size:22px;}
+.utility .checkout {text-align: right;font-size:16px;color:#999;}
+.utility .checkout strong {color:#000;}
 
 .logo {margin-top:0;float:left;width:125px;margin-top:-15px;}
 .nav {float:right;margin-top:0;width:850px;height:57px;background:url(../images/red_bar.png);}
 .nav ul li {float:left;list-style-type: none;padding:8px 25px 8px 25px;text-align: center;display:block;border-right:1px solid #E95F46;font-size: 12px;}
+.nav ul li:last-child {border:none;}
 .nav ul li strong {font-size:20px;}
 .nav ul li a {color:#F19A89}
 .nav ul li a:hover {text-decoration: none;color:#000;}
 .nav ul li a strong:hover {color: #000;}
 .nav ul li a strong {color: #fff;} 
 
+form.global-search {padding:5px 0 0 55px;position:relative;z-index:1;}
+form.global-search input[type=text] {border:none;height:30px;width:270px;font-size:14px;padding-left: 30px;}
+form.global-search .icon-search {position:absolute;top:10px;left:60px;z-index:2;}
 
-.slides {background:url(../images/hero1.png) top center no-repeat;}
+
+.slides {background:url(../images/hero1.png) top center no-repeat;position:relative;}
+.slides .slide-numbers {position:absolute;top:360px;left:10px;}
+.slides li {display:inline-block;float: left;}
+.slides li a {display:inline-block;padding:5px 8px;margin-right:10px;background-color:#999;color:#fff;}
+.slides li a:hover {background-color:#E84520;text-decoration: none;}
+.slides li a.selected {background-color:#E84520;} 
+.slides .social {position:absolute;top:360px;left:850px;}
+.slides .buttons-shop {position:absolute;top:197px;left:115px;width:300px;height:50px;color:#999;}
+
+
+.tiles {margin-top:10px;}
 .products ul {padding:15px;}
 .products ul li {display:inline-block;list-style-type: none;background-color: #eee;padding:10px;margin:0 15px 15px 0;width:220px;}
