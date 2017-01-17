@@ -74,6 +74,6 @@ form.global-search .icon-search {position:absolute;top:10px;left:60px;z-index:2;
 .slides .buttons-shop {position:absolute;top:197px;left:115px;width:300px;height:50px;color:#999;}
 
 
-.tiles {margin-top:10px;}
-.products ul {padding:15px;}
-.products ul li {display:inline-block;list-style-type: none;background-color: #eee;padding:10px;margin:0 15px 15px 0;width:220px;}
+
+a.shop-now {display:block;background:url(../images/shop_now_slice.png) no-repeat;padding:0 0 0 27px;background-position:0 0;}
+a.shop-now:hover {background-position:0 -30px;}

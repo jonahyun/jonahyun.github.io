@@ -1,7 +1,7 @@
 var header = document.querySelector('#json1');
 var section = document.querySelector('#json2');
 
-var requestURL = 'http://mystore.local/js/products.json';
+var requestURL = 'js/products.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'text';
@@ -20,7 +20,7 @@ function showProducts(jsonObj) {
   
   for(i = 0; i < threeD.length; i++) {
     var myArticle = document.createElement('article');
-    
+
     var myPara1 = document.createElement('h3');
     var myPara2 = document.createElement('p');
     var myPara3 = document.createElement('p');
