@@ -80,3 +80,7 @@ a.shop-now:hover {background-position:0 -57px;}
 
 
 .json h3 {mtext-align: center;}
+
+#json2 article {background-color: #B7D1E5;margin:0 10px 10px 0;width:210px;min-height:100px;float:left;padding:10px;border:0px solid #ccc;}
+
+#json2 article p {margin:0;padding:0;}

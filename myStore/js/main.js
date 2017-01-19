@@ -1,4 +1,3 @@
-var header = document.querySelector('#json1');
 var section = document.querySelector('#json2');
 
 var requestURL = 'js/products.json';
@@ -20,11 +19,11 @@ function showProducts(jsonObj) {
   
   for(i = 0; i < threeD.length; i++) {
 
-    var myArticle = document.createElement('article');
+    var myLink = document.createElement('a');
+    myLink.setAttribute('href', threeD[i].link);
 
-    //var myLink = document.createElement('a');
-    //myLink.setAttribute('href', threeD[i].link);
-    //Need to figure out how to wrap myArticle as anchor tag.
+    var myArticle = document.createElement('article');
+    
 
     var myPara1 = document.createElement('h3');
     var myPara2 = document.createElement('p');
@@ -43,7 +42,8 @@ function showProducts(jsonObj) {
     myArticle.appendChild(myPara1);
     myArticle.appendChild(myPara2);
     myArticle.appendChild(myPara3);
+    myLink.appendChild(myArticle)
     
-    section.appendChild(myArticle);
+    section.appendChild(myLink);
   }
 }
