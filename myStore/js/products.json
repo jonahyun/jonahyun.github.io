@@ -5,37 +5,43 @@
 			"name" : "Motorcyle",
 			"price" : "$20",
 			"author" : "Holly Davidson",
-			"image" : "images/3d/motorcycle.jpg"
+			"image" : "images/3d/motorcycle.jpg",
+			"link" : "test.html"
 		}, 
 		{
 			"name" : "Car",
 			"price" : "$30",
 			"author" : "Brad Pitt",
-			"image" : "images/3d/car.png"
+			"image" : "images/3d/car.png",
+			"link" : "test.html"
 		},
 		{
 			"name" : "Dragon",
 			"price" : "$60",
 			"author" : "Angelina Jolie",
-			"image" : "images/3d/dragon.jpg"
+			"image" : "images/3d/dragon.jpg",
+			"link" : "test.html"
 		},	
 		{
 			"name" : "Tower",
 			"price" : "$40",
 			"author" : "Ray Lewis",
-			"image" : "images/3d/tower.jpg"
+			"image" : "images/3d/tower.jpg",
+			"link" : "test.html"
 		},
 		{
 			"name" : "Train",
 			"price" : "$30",
 			"author" : "Will Smith",
-			"image" : "images/3d/train.jpg"
+			"image" : "images/3d/train.png",
+			"link" : "test.html"
 		},
 		{
 			"name" : "Ship",
 			"price" : "$45",
 			"author" : "Tom Cruise",
-			"image" : "images/3d/ship.jpg"
+			"image" : "images/3d/ship.jpg",
+			"link" : "test.html"
 		}	
 	]
 }

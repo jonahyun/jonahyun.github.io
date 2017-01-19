@@ -71,9 +71,12 @@ form.global-search .icon-search {position:absolute;top:10px;left:60px;z-index:2;
 .slides li a:hover {background-color:#E84520;text-decoration: none;}
 .slides li a.selected {background-color:#E84520;} 
 .slides .social {position:absolute;top:360px;left:850px;}
-.slides .buttons-shop {position:absolute;top:197px;left:115px;width:300px;height:50px;color:#999;}
+.slides .buttons-shop {position:absolute;top:170px;left:115px;width:300px;height:50px;color:#999;}
 
 
 
-a.shop-now {display:block;background:url(../images/shop_now_slice.png) no-repeat;padding:0 0 0 27px;background-position:0 0;}
-a.shop-now:hover {background-position:0 -30px;}
+a.shop-now {position:relative;top:27px;display:inline-block;width: 158px;height:57px;background:url(../images/button_shopnow_slice.png) no-repeat;background-position:0 0;}
+a.shop-now:hover {background-position:0 -57px;}
+
+
+.json h3 {mtext-align: center;}
