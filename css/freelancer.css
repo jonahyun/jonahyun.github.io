@@ -69,8 +69,11 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #18BC9C;
+  background-color:red;
+  background:url(../img/hero2.png) top center;
   color: white;
+  opacity: 1;
+
 }
 header .container {
   padding-top: 100px;
@@ -104,7 +107,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #2C3E50;
+  background: #222;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;

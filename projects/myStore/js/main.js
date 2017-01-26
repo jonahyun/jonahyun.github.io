@@ -1,4 +1,4 @@
-var section = document.querySelector('#json2');
+ var section = document.querySelector('#json2');
 
 var requestURL = 'js/products.json';
 var request = new XMLHttpRequest();
